@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #eaeded;
+}
+
+.SideMenu {
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  background-color: white;
+  padding-top: 50px;
+  padding-left: 10px;
+}
+.Content {
+  margin-left: 210px;
+  margin-bottom: 60px;
+  padding-top: 50px;
+}
+.footer {
+  position: fixed;
+  left: 210px;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  padding: 25px;
+  border: 1px solid yellow;
+  margin-left: 5px;
+}
+
+.SideMenu img {
+  width: 100px;
+  height: 100px;
+}
+.profilepic {
+  margin-left: 50px;
+}
+
+.name {
+  margin-left: 50px;
+}
+
+table,
+td,
+th {
+  border: 1px solid yellow;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.head {
+  padding: 10px;
+}
+
+.row {
+  padding: 10px;
+}
+
+.tabledata {
+  margin-top: 50px;
+}
+
+.contactform{
+    border: 1px solid black;
+    background-color: white;
+    width: 300px;
+    padding: 50px;
+}
+
+.formarea{
+    margin-top: 50px;
+}
+
+
+.gallery img {
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+  }
