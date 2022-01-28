@@ -55,20 +55,20 @@ table {
 .tabledata {
   margin-top: 50px;
 }
-.contactform{
-    border: 1px solid black;
-    background-color: white;
-    width: 300px;
-    padding: 50px;
+.contactform {
+  border: 1px solid black;
+  background-color: white;
+  width: 300px;
+  padding: 50px;
 }
-.formarea{
-    margin-top: 50px;
+.formarea {
+  margin-top: 50px;
 }
 .gallery img {
-    margin-top: 50px;
-    width: 200px;
-    height: 200px;
-  }
-.gallery{
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+}
+.gallery {
   margin-left: 100px;
 }
