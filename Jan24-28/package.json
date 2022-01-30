@@ -1,5 +1,9 @@
 {
   "devDependencies": {
     "less": "^4.1.2"
+  },
+  "dependencies": {
+    "@enact/cli": "^4.1.6",
+    "enact": "^0.0.2"
   }
 }
