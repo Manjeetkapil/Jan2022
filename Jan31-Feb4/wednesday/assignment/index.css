@@ -1,0 +1,64 @@
+body{
+    padding: 100px;
+    background-color: whitesmoke;
+}
+.formtitle{
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: monospace;
+    font-size: 24px;
+}
+
+.detailstitle{
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: monospace;
+    font-size: 24px;
+    text-decoration: underline;
+}
+.detailshead{
+    font-size: 20px;
+    font-style: oblique;
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.detailsbody{
+    font-size: 16px;
+    font-family: monospace;
+}
+
+.detailsform{
+    width: 500px;
+    height: 600px;
+    border: 5px solid black;
+    padding: 20px;
+    background-color: white;
+}
+
+.formlabel{
+    font-size: 20px;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.container{
+    display: flex;
+}
+
+.data{
+    margin-left: 100px;
+    width: 500px;
+    height: 600px;
+    border: 5px solid white;
+    background-color: white;
+    padding: 20px;
+    overflow-y: auto;
+}
+.formsubmit{
+    margin: 10px;
+    font-size: 18px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+}
