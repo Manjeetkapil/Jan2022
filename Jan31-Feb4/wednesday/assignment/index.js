@@ -34,7 +34,7 @@ window.onload = function(e){
         for (j in data[i]){
             inner += `<div class="detailsbody"><span class="detailshead">${j}:</span>${data[i][j]}</div>`
         }
-        inner+="<hr\>"
+        inner+="<hr class='rule'\>"
     }
     divv.innerHTML = inner;
 }
