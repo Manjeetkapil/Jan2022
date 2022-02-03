@@ -25,11 +25,12 @@
         <br />
         <label for="number" class="formlabel" >Phone:</label>
         <input
-          type="number"
+          type="text"
           id="number"
           name="number"
           placeholder="Type your Contact Number"
           onkeyup="check()"
+          pattern="[6-9]{1}[0-9]{9}"
           required
         />
         <br />
