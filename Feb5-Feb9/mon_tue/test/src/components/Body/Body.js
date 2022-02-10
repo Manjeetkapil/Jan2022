@@ -16,7 +16,7 @@ class Body extends React.Component {
   }
 
   componentDidMount(){
-    fetch('https://jsonplaceholder.typicode.com/photos?_start=0&_limit=100')
+    fetch('https://jsonplaceholder.typicode.com/photos?_start=0&_limit=13')
     .then((response)=>response.json())
     .then(response=>{
       this.setState({data:response})

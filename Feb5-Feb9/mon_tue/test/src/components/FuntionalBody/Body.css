@@ -1,0 +1,22 @@
+.mybody{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 10px;
+    padding: 20px;
+    box-shadow:0.3em 0.3em 1em rgba(0,0,0,0.3);
+    width: 400px;
+}
+
+.delete{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 5px;
+    max-width: 30px;
+    max-height: 30px;
+}
