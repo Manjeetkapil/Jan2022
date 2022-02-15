@@ -1,0 +1,13 @@
+.listbuttons{
+  display: flex;
+  width: 500px;
+  justify-content: space-around;
+}
+
+.button{
+  font-size: 40px;
+  width: 100px;
+  background-color: aqua;
+  border: 1px solid;
+  box-shadow: 1px 1px black;
+}
