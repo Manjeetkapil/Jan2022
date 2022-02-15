@@ -1,6 +1,14 @@
+import React from "react";
+import { useNavigate } from "react-router-dom";
+
 function Logout() {
+  const history = useNavigate();
+  const handleClick = () => {
+    console.log("clicking this")
     localStorage.removeItem("UserId");
-    window.location.href = "/";
-  }
-  
-  export default Logout;
+    history("/login");
+  };
+  return <button className="button" onClick={handleClick}>Logout</button>;
+}
+
+export default Logout;

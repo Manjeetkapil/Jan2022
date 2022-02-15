@@ -14,25 +14,19 @@ function App() {
   return (
       <Router>
       <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
+        <nav className='nav'>
+          <ul className='list'>
+            <li className='listitem'>
+              <Link className='button' to="/">Home</Link>
             </li>
-            <li>
-              <Link to="/login">Login</Link>
+            <li className='listitem'>
+              <Link className='button' to="/login">Login</Link>
             </li>
-            <li>
-              <Link to="/registration">Registration</Link>
+            <li className='listitem'>
+              <Link className='button' to="/registration">Registration</Link>
             </li>
-            <li>
-            <a
-                  onClick={() => {
-                    Logout();
-                  }}
-                >
-                  Logout
-                </a>
+            <li className='listitem'>
+            <Logout/>
             </li>
           </ul>
         </nav>
