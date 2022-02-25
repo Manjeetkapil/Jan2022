@@ -20,11 +20,11 @@ const App = kind({
 
   render: (props) => (
     <div className={props.className}>
-		{/* <div className={css.panel}>
+		<div className={css.panel}>
 		<Panels>
 			<MainPanel />
 		</Panels>
-	  </div> */}
+	  </div>
 	  <div className={css.subheader}>
 		<Subheader/>
 	  </div>

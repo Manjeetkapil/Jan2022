@@ -25,14 +25,16 @@ const Router = (props) => {
   const handleNavigate = useCallback((ev) => nav(ev.path), [nav]);
 
   const onNavigate = (path) =>{
-      nav("folder");
+      nav(path);
   }
 
   return (
 	  <Views {...props} path={path} onNavigate={handleNavigate}>
 		  {/* <Route path="main" component={FolderRepeater}> */}
             <Route path="main" component={FolderRepeater} onNavigate={onNavigate}/>
-			<Route path="folderid" component={InsideFolder} />
+			<Route path="folder/:id" component={InsideFolder} />
+            {/* Bug: Not able to use :id to render component By Id */}
+            {/* When you click any folder it says does not mathes the route */}
 		  {/* </Route> */}
 	  </Views>
   );
