@@ -32,7 +32,7 @@ const Router = (props) => {
 	  <Views {...props} path={path} onNavigate={handleNavigate}>
 		  {/* <Route path="main" component={FolderRepeater}> */}
             <Route path="main" component={FolderRepeater} onNavigate={onNavigate}/>
-			<Route path="folder/:id" component={InsideFolder} />
+			      <Route path="folder" component={InsideFolder} />
             {/* Bug: Not able to use :id to render component By Id */}
             {/* When you click any folder it says does not mathes the route */}
 		  {/* </Route> */}

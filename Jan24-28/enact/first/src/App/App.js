@@ -1,30 +1,35 @@
 import kind from '@enact/core/kind';
 import ThemeDecorator from '@enact/sandstone/ThemeDecorator';
-import Panels from '@enact/sandstone/Panels';
+import Repeater from '@enact/ui/Repeater';
 
-import MainPanel from '../views/MainPanel';
+import Kitten from '../components/Kitten/Kitten';
 
-import css from './App.module.less';
+const kittens = [
+	'Garfield',
+	'Nermal',
+	'Simba',
+	'Nala',
+	'Tiger',
+	'Kitty',
+	'tiksy',
+	'cutie',
+];
 
-const App = kind({
+const AppBase = kind({
 	name: 'App',
 
-	styles: {
-		css,
-		className: 'app'
-	},
-
 	render: (props) => (
-		<div {...props}>
-			<Panels>
-				<MainPanel />
-			</Panels>
-			<div className={css.area}>
-				New area
-			</div>
+		<div className={props.className}>
+			<Repeater childComponent={Kitten} indexProp="index">
+				{kittens}
+			</Repeater>
 		</div>
 	)
 });
+const App = ThemeDecorator(AppBase);
 
-export default ThemeDecorator(App);
-// export default App;
+export default App;
+export {
+	App,
+	AppBase
+};

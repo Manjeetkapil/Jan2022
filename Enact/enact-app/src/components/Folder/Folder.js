@@ -15,7 +15,7 @@ const Folder = kind({
 	},
     handlers:{
         handleClick:(index,obj)=>{
-            obj.onNavigate(`/folder/${index}`);
+            obj.onNavigate(`/folder`);
         }
     },
 	render: ({children, index,onNavigate,handleClick, ...rest}) => {

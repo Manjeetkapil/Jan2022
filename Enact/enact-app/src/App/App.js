@@ -7,7 +7,7 @@ import FolderRepeater from "../components/FolderRepeater/FolderRepeater";
 import Subheader from "../components/Subheader/Subheader";
 import Routable from '@enact/ui/Routable';
 import Router from "../Routes/Route";
-
+import {Link} from '@enact/ui/Routable';
 import css from "./App.module.less";
 
 const App = kind({
